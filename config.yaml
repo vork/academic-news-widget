@@ -1,4 +1,12 @@
 module:
   mounts:
-    - source: layouts
-      target: layouts
+    - source: blocks
+      target: layouts/partials/blocks/
+      includeFiles: '**.html'
+    - source: sections
+      target: layouts/section/
+      includeFiles: '**.html'
+    - source: views
+      target: layouts/partials/views/
+      includeFiles: '**.html'
+    

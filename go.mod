@@ -1,3 +1,3 @@
 module github.com/vork/wowchemy-widget-news
 
-go 1.15
+go 1.19
